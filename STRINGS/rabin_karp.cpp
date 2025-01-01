@@ -1,7 +1,10 @@
 #include <bits/stdc++.h> 
 using namespace std; 
-#define d 256
-const int q=101;
+#define d 256 //The program assumes that the text and pattern consist of characters from the extended ASCII set.
+// The extended ASCII set includes 256 characters (values ranging from 0 to 255).
+// By setting d = 256, the algorithm can handle any character in this range.
+
+const int q=101; //A prime number
 void RBSearch(string pat,string txt,int M, int N){
     
     //Compute (d^(M-1))%q
