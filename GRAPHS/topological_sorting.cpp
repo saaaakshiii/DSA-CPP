@@ -1,4 +1,5 @@
 //Kahn's Algorithm
+//BFS based algorithm
 
 #include<bits/stdc++.h> 
 using namespace std; 
