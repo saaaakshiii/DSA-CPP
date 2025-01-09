@@ -3,9 +3,7 @@ using namespace std;
 
 #define N 4 
   
-bool solveMazeRec( 
-    int maze[N][N], int x, 
-    int y, int sol[N][N]); 
+bool solveMazeRec( int maze[N][N], int x, int y, int sol[N][N]); 
   
 void printSolution(int sol[N][N]) 
 { 
