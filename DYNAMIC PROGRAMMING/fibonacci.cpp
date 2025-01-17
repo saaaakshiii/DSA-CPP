@@ -1,4 +1,4 @@
-//Using memoization
+//Using memoization-- Top down
 
 /* C++ program for Memoized version
    for nth Fibonacci number */
@@ -42,7 +42,7 @@
 //     return 0; 
 // }
 
-//Using tabulation
+//Using tabulation--Bottom up
 
 /* C++ program for Tabulated version */
 

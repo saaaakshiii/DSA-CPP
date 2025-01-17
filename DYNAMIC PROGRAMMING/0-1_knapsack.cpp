@@ -14,7 +14,7 @@ int knapSack(int W, int wt[], int val[], int n)
     int i, w;
     int K[n + 1][W + 1];
 
-    // Build table K[][] in bottom up manner
+    // Build table K[][] in bottom up manner (tabulation)
     for (i = 0; i <= n; i++) {
         for (w = 0; w <= W; w++) {
             if (i == 0 || w == 0)
